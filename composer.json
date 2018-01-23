@@ -5,4 +5,9 @@
         "php": "^7.0",
         "doctrine/orm": "^2.5"
     }
+	"autoload": {
+        "psr-4": {
+            "Cojecom\\BaseEntityBundle\\": "src/BaseEntityBundle"
+        }
+	}
 }
