@@ -1,9 +1,7 @@
 {
     "name": "cojecom/base_entity",
     "description": "A base entity for Symfony projects. Available in 2 flavours : incremental numeric IDs & UUIDs",
-	{
-		"license": "CC-BY-4.0"
-	},
+	"license": "CC-BY-4.0",
     "require": {
         "php": "^7.0",
         "doctrine/orm": "^2.5"
