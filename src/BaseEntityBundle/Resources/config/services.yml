@@ -1,0 +1,4 @@
+services:
+    BaseEntityBundle\EventListener\EntityEditionListener:
+        tags:
+            - { name: doctrine.event_listener,event: preUpdate, connection: default }
