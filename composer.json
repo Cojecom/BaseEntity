@@ -1,0 +1,8 @@
+{
+    "name": "Cojecom/BaseEntity",
+    "description": "A base entity for Symfony projects. Available in 2 flavours : incremental numeric IDs & UUIDs",
+    "require": {
+        "php": "^7.0",
+        "doctrine/orm": "^2.5",
+    }
+}
