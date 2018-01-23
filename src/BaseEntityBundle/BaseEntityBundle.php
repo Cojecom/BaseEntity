@@ -1,6 +1,6 @@
 <?php
 
-namespace BaseEntityBundle;
+namespace Cojecom\BaseEntityBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

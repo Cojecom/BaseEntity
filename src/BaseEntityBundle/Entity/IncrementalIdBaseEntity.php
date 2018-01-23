@@ -1,6 +1,6 @@
 <?php
 
-namespace BaseEntityBundle\Entity;
+namespace Cojecom\BaseEntityBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 

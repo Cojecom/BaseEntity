@@ -1,7 +1,7 @@
 <?php
 
 
-namespace BaseEntityBundle\Entity;
+namespace Cojecom\BaseEntityBundle\Entity;
 
 
 interface BaseEntityInterface

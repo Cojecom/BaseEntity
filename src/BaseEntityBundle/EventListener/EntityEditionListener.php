@@ -1,6 +1,6 @@
 <?php
 
-namespace BaseEntityBundle\EventListener;
+namespace Cojecom\BaseEntityBundle\EventListener;
 
 use BaseEntityBundle\Entity\BaseEntityInterface;
 use Doctrine\ORM\Event\LifecycleEventArgs;
