@@ -1,5 +1,5 @@
 {
-    "name": "Cojecom/BaseEntity",
+    "name": "cojecom/base_entity",
     "description": "A base entity for Symfony projects. Available in 2 flavours : incremental numeric IDs & UUIDs",
     "require": {
         "php": "^7.0",
