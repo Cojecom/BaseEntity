@@ -2,7 +2,7 @@
 
 namespace Cojecom\BaseEntityBundle\EventListener;
 
-use BaseEntityBundle\Entity\BaseEntityInterface;
+use Cojecom\BaseEntityBundle\Entity\BaseEntityInterface;
 use Doctrine\ORM\Event\LifecycleEventArgs;
 
 class EntityEditionListener

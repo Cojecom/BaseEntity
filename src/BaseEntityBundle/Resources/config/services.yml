@@ -1,4 +1,4 @@
 services:
-    BaseEntityBundle\EventListener\EntityEditionListener:
+    Cojecom\BaseEntityBundle\EventListener\EntityEditionListener:
         tags:
             - { name: doctrine.event_listener,event: preUpdate, connection: default }
