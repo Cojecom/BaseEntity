@@ -3,6 +3,7 @@
 namespace Cojecom\BaseEntityBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Ramsey\Uuid\Uuid;
 
 /**
  * BaseEntity
@@ -19,10 +20,16 @@ class UuidBaseEntity extends BaseEntityWithoutId
     
     
 
-    public function __construct($id)
+    public function __construct($id = null)
     {
         parent::__construct();
-        $this->id = $id;
+        if($id !== null){
+            $this->id = $id;
+        }
+        else {
+            $this->id = Uuid::uuid4();
+        }
+        
     }
     
     /**

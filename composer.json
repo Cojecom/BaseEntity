@@ -4,7 +4,8 @@
 	"license": "CC-BY-4.0",
     "require": {
         "php": "^7.0",
-        "doctrine/orm": "^2.5"
+        "doctrine/orm": "^2.5",
+		"ramsey/uuid": "^3.7"
     },
 	"autoload": {
         "psr-4": {
