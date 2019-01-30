@@ -17,6 +17,12 @@ abstract class BaseEntityWithoutId implements BaseEntityInterface
         $this->modified = new \DateTime();
     }
     
+    public function __clone()
+    {
+        $this->created  = clone $this->created;
+        $this->modified = clone $this->modified;
+    }
+    
     /**
      * @var \DateTime
      * @ORM\Column(name="created", type="datetime")

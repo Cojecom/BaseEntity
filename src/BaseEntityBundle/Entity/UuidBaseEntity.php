@@ -19,7 +19,7 @@ class UuidBaseEntity extends BaseEntityWithoutId
     protected $id;
     
     
-
+    
     public function __construct($id = null)
     {
         parent::__construct();
@@ -27,23 +27,26 @@ class UuidBaseEntity extends BaseEntityWithoutId
             $this->id = $id;
         }
         else {
-            $this->id = Uuid::uuid4();
+            $this->id = Uuid::uuid4()->toString();
         }
         
     }
     
+    public function __clone()
+    {
+        parent::__clone();
+        $this->id = Uuid::uuid4()->toString();
+    }
+    
     /**
-     * Get id
-     *
-     * @return integer
+     * @return string
      */
-    public function getId()
+    public function getId():string
     {
         return $this->id;
     }
     
     /**
-     * Get id
      * @param string $id
      * @return UuidBaseEntity
      */

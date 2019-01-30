@@ -21,9 +21,7 @@ class IncrementalIdBaseEntity extends BaseEntityWithoutId
     
 
     /**
-     * Get id
-     *
-     * @return integer
+     * @return int
      */
     public function getId()
     {
@@ -31,9 +29,7 @@ class IncrementalIdBaseEntity extends BaseEntityWithoutId
     }
     
     /**
-     * Get id
-     *
-     * @param $id
+     * @param int $id
      *
      * @return IncrementalIdBaseEntity
      */
